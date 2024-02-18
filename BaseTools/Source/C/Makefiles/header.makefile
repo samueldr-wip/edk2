@@ -120,7 +120,7 @@ LDFLAGS =
 CXXFLAGS = -Wno-unused-result
 endif
 
-CPPFLAGS += -fshort-wchar -flto -DUSING_LTO
+CPPFLAGS += -fshort-wchar
 ifeq ($(HOST_ARCH), X64)
   CPPFLAGS += "-DEFIAPI=__attribute__((ms_abi))"
 endif
