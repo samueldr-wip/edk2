@@ -1604,7 +1604,7 @@ CoreStartImage (
     return Image->LoadImageStatus;
   }
 
-  DEBUG ((DEBUG_WARN, "Starting driver at %lu\n", Image->Info.ImageBase));
+  DEBUG ((DEBUG_WARN, "Starting driver at 0x%11p\n", Image->Info.ImageBase));
 
   //
   // The image to be started must have the machine type supported by DxeCore.
