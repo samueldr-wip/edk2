@@ -51,7 +51,7 @@
   gEfiSimpleFileSystemProtocolGuid              ## SOMETIMES_CONSUMES
   gEfiHiiConfigAccessProtocolGuid               ## PRODUCES
   gEfiFormBrowser2ProtocolGuid                  ## CONSUMES
-  gEfiDevicePathToTextProtocolGuid              ## PRODUCES
+  gEfiDevicePathToTextProtocolGuid              ## CONSUMES [??]
 
 [Depex.common.DXE_DRIVER]
   gEfiFormBrowser2ProtocolGuid AND gEfiHiiDatabaseProtocolGuid
